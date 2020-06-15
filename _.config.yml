@@ -6,9 +6,6 @@ relative_links:
 include:
   - CONTRIBUTING.md
   - README.md
-  - LICENSE.md
-  - COPYING.md
-  - CODE_OF_CONDUCT.md
-  - CONTRIBUTING.md
-  - ISSUE_TEMPLATE.md
-  - PULL_REQUEST_TEMPLATE.md
+  - index.md
+  - Readme_of_weel1.md
+  - Readme_of_week2.md
