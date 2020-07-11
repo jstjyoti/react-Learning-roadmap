@@ -1,0 +1,49 @@
+.Note {
+	margin-top: 4rem;
+	display: flex;
+	flex-direction: column;
+	background-color: #333;
+	width: 45%;
+	min-height: 100px;
+	padding: 2.2rem;
+	border-radius: 1.3rem;
+	border: 0.5px white solid;
+}
+
+hr {
+	width: 100%;
+	margin: 1.3rem 0px;
+	align-self: center;
+}
+
+.Note-title {
+    background-color: transparent;
+    border: none;
+	outline: none;
+	color: white;
+	font-size: 1.8rem;
+    margin-top: 1rem;
+    margin-bottom: 3.2rem;
+}
+
+.Note-title[placeholder]:empty::before {
+	content: attr(placeholder);
+	color: #888;
+	cursor: text;
+}
+
+@media screen and (max-width: 600px) {
+    .Note{
+        border: none;
+        width: 100%;
+        margin-top: 0rem;
+    }
+
+    .Note-title{
+        margin: 2.2rem 0;
+    }
+
+    hr{
+        margin: 0.8rem 0;
+    }
+}
