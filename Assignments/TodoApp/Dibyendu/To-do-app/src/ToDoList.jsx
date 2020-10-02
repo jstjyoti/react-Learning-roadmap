@@ -4,9 +4,9 @@ const ToDoList = (props) =>{
 
     return (
     <> 
-    <li>{props.text}<button onClick={() => {
-        props.onSelect(props.id);
-    }}>X</button></li>
+        <li>{props.text}<button onClick={() => {
+            props.onSelect(props.id);
+        }}>X</button></li>
     </>
     );
 };

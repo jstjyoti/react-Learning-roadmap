@@ -32,7 +32,6 @@ function App() {
     <input type="text" placeholder="Add Item" onChange={inputevent} value={inputlist}/>
     <button className="addbutton" onClick={addevent}>+</button>
     <ul>
-        {/* <li>{inputlist}<button>X</button></li> */}
         {items.map((itemval,index)=>{
           return <ToDoList 
           text= {itemval} 
